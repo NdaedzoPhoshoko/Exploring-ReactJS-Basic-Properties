@@ -1,0 +1,8 @@
+To start an empty project with required packages enter these commands:
+    npm create vite@latest
+    give a project name, select framework, and a variant
+    cd projectName
+    npm install
+    npm run dev
+To run the project, copy the host address from the terminal:
+http://localhost:5173/
