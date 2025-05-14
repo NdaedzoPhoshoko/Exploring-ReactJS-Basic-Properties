@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: hsla(180, 1%, 57%, 0.789);
+}
+
+/* style the container here since it is used in multiple components */
+.container{
+    max-width: 85%; /* 85% of the viewport width */
+    margin: auto; /* center the container */
+}
+
+/* style the flexSB here since it is used in multiple components */
+.flexSB{
+    display: flex; /* use flexbox layout */
+    justify-content: space-between; /* space between items */
+    align-items: center; /* center items vertically */
+}
+
+.icon{
+    width: 40px; /* set width of icon */
+    height: 40px; /* set height of icon */
+    line-height: 40px; /* set line height to center icon vertically */
+    border-radius: 50%; /* make icon circular */
+    text-align: center; /* center text inside icon */
+    background: #f1f1f1; /* light gray background */
+    color: #1eb2a6; /* teal text color */
+    transition: 0.5s; /* transition effect for hover */
+}
+
+/* hover effect for icon */
+.icon:hover{
+    background: #1eb2a6; /* teal background on hover */
+    color: #fff; /* white text color on hover */
+    cursor: pointer; /* pointer cursor on hover */
+
+}

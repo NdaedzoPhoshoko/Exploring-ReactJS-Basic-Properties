@@ -1,0 +1,23 @@
+To run React install this
+npm create vite@latest
+give a project name, choose a framework/library and a language
+npm install
+npm run dev
+
+To install React Router use this
+npm install react-router-dom@5
+npm install react-router@5
+
+for google fonts put these in App.css file
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+For font awesome stylesheet put this on the head element in the index.html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+Also import this packages for routing, in your App.jsx
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+
+Note: React Router is used for navigation and routing, allowing us to create single-page applications with multiple views without page refreshes

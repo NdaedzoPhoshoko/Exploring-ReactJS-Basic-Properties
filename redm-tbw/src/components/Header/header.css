@@ -1,0 +1,37 @@
+.header {
+    margin-left: 5%;
+}
+
+.header h4 {
+    width: 25%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    color: hsla(0, 0%, 0%, 1);
+    margin-bottom: 0;
+}
+
+.blue-divider{
+        border: 1.2px solid rgb(18, 171, 191);
+        width: 93%;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 1.8%;
+}
+.header p {
+    width: 20%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 0%, 0.4);
+    margin-bottom: 0;
+}

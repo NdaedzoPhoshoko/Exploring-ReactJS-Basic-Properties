@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 8px;
+    background-color: rgba(83, 165, 165, 0.822);
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.nested-component {
+    background-color: rgba(172, 198, 221, 0.925);
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    padding: 10%;
+}
